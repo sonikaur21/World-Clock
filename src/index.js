@@ -50,7 +50,8 @@ function displaySelect(event) {
         <div class="time">${cityTime.format(
           "h:mm:ss [<small>]A[</small>]"
         )}</div>
-        </div>`;
+        </div>
+        <a href="index.html"> All Cities</a>`;
 }
 let cityselectElement = document.querySelector("#cityselect");
 
